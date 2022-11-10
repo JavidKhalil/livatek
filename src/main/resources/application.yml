@@ -1,0 +1,13 @@
+curr:
+  DKK: 100
+  NOK: 73.50
+  SEK: 70.23
+  GBP: 891.07
+  EUR: 743.93
+vat:
+  DK: All 25
+  NO: All 25
+  SE: All 25
+  GB: All 20
+  DE_O: Online 19
+  DE_B: Book 12

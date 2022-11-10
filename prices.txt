@@ -1,0 +1,1 @@
+Thu Nov 10 20:04:02 AZT 2022 amount 23.0 freight 100.0 price 199.95

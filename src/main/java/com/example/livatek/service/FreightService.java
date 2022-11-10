@@ -4,7 +4,9 @@ import com.example.livatek.domain.Amount;
 import com.example.livatek.domain.Freight;
 import com.example.livatek.domain.LivatekType;
 import com.example.livatek.domain.Price;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface FreightService {
 
     Boolean applyAble(Amount amount, Price price, LivatekType livatekType);
