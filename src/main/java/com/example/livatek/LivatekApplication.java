@@ -34,6 +34,15 @@ public class LivatekApplication {
     public static void main(String[] args) {
         SpringApplication.run(LivatekApplication.class, args);
 
+        /**
+         * TO DO
+         *
+         * Add exception handling algebra
+         * Add persistence for prices
+         *       use docker-compose
+         * Add RestController for API generation
+         */
+
         List<String> arguments = Arrays.asList(args);
         Amount amount = new Amount(Long.valueOf(arguments.get(0)));
         Price price = new Price(Double.valueOf(arguments.get(1)));
