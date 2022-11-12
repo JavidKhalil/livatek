@@ -10,8 +10,7 @@ import java.util.Date;
 public class FileUtils {
 
     public static void write(String path, Amount amount, String finalPrice, Freight freight){
-        try {
-            FileWriter fileWriter = new FileWriter(path);
+        try(FileWriter fileWriter = new FileWriter(path)) {
             fileWriter.append(String.format("%s amount %s freight %s price %s",
                     new Date(),
                     amount.getAmount().doubleValue(),
