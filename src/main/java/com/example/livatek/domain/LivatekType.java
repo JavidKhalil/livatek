@@ -8,6 +8,7 @@ public class LivatekType {
     private LivatekTypeEnum name;
 
     public LivatekType() {
+        this.name = LivatekTypeEnum.book;
     }
 
     public LivatekType(String name) {
